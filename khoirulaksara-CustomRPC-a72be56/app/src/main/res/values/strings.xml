@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Custom RPC</string>
+    <string name="app_subtitle">Discord Rich Presence Client</string>
+    
+    <!-- Login View -->
+    <string name="title_login">CustomRPC</string>
+    <string name="hint_token">User Token</string>
+    <string name="btn_login_discord">Login via Discord</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_token_guide">How to get Token?</string>
+    <string name="msg_enter_token">Please enter a token</string>
+    <string name="msg_token_saved">Token Retrieved &amp; Saved!</string>
+    <string name="msg_sniffing">Sniffing \'Authorization\' header...</string>
+    
+    <!-- Dashboard View -->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="status_label">STATUS</string>
+    <string name="status_offline">OFFLINE</string>
+    <string name="status_connecting">CONNECTING</string>
+    <string name="status_online">ONLINE</string>
+    <string name="desc_service_idle">Service Idle</string>
+    <string name="btn_start">START</string>
+    <string name="btn_stop">STOP</string>
+    <string name="btn_kill_service">Kill Service</string>
+    <string name="btn_configure">Configure Presence</string>
+    <string name="label_active_preview">Active Presence Preview</string>
+    <string name="btn_start_connection">START CONNECTION</string>
+    <string name="btn_stop_connection">STOP CONNECTION</string>
+    <string name="btn_logout">Logout</string>
+    <string name="desc_battery_opt">Battery Optimization Active</string>
+    <string name="desc_battery_opt_fix">Click to fix (Recommended for 24/7 stability)</string>
+    <string name="msg_disable_opt_manually">Please disable optimization in settings manually</string>
+    <string name="status_no_internet">NO INTERNET</string>
+    <string name="msg_no_internet_warning">No internet connection detected. Presence will not update.</string>
+    <string name="msg_action_requires_internet">This action requires an internet connection.</string>
+    
+    <!-- Settings View -->
+    <string name="title_configuration">Configuration</string>
+    <string name="hint_app_id">Application ID</string>
+    <string name="hint_app_name">Activity Name (Custom App Name)</string>
+    <string name="label_activity_type">Activity Type</string>
+    <string name="label_user_status">User Status</string>
+    <string name="hint_details">Details (Top Line)</string>
+    <string name="hint_state">State (Bottom Line)</string>
+    <string name="hint_party_size">Party Size</string>
+    <string name="hint_party_max">Party Max</string>
+    
+    <string name="label_timestamps">Timestamps</string>
+    <string name="btn_ts_start">Start</string>
+    <string name="btn_ts_end">End</string>
+    <string name="ts_none">None</string>
+    
+    <string name="label_large_image">Large Image</string>
+    <string name="label_small_image">Small Image</string>
+    <string name="hint_image_key">Key</string>
+    <string name="hint_image_text">Tooltip</string>
+    
+    <string name="label_btn1">Button 1</string>
+    <string name="label_btn2">Button 2</string>
+    <string name="hint_btn_label">Label</string>
+    <string name="hint_btn_url">URL</string>
+    
+    <string name="btn_save_apply">Save &amp; Apply</string>
+    <string name="btn_back_dashboard">Back to Dashboard</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="label_recent_app_ids">Recent App IDs</string>
+    <string name="label_live_preview">Live Preview</string>
+    <string name="msg_app_id_token_missing">App ID or Token is missing</string>
+    <string name="msg_network_error">Network Error</string>
+    <string name="msg_no_assets">No assets found</string>
+    <string name="msg_failed_api">Failed API or no assets</string>
+    <string name="title_select_asset">Select Asset</string>
+    
+    <string name="msg_rpc_updated">RPC Updated!</string>
+    <string name="msg_fetching_assets">Fetching assets...</string>
+    <string name="msg_no_app_id">Please enter Application ID first</string>
+    <string name="msg_no_assets_found">No assets found for this App ID</string>
+    <string name="title_select_image">Select Image Key</string>
+    
+    <!-- About View -->
+    <string name="about_version">Version %s</string>
+    <string name="about_dev">Developed by %s</string>
+    <string name="label_tagline1">Keep your Discord presence alive.</string>
+    <string name="label_tagline2">Simple, lightweight, persistent.</string>
+    <string name="btn_visit_repo">Visit Repository</string>
+    <string name="btn_support_dev">Buy Me Coffee</string>
+    <string name="about_desc">Keep your Discord Presence Alive.\nSimple, Lightweight, Persistent.</string>
+    <string name="btn_back">Back</string>
+    
+    <!-- Token Guide Dialog -->
+    <string name="dialog_guide_title">How to Get Token</string>
+    <string name="dialog_guide_msg">1. Open Discord Web/PC.\n2. Ctrl+Shift+I -> Network.\n3. Type \'/api/\' in filter.\n4. Send a chat message.\n5. Copy the \'authorization\' header value.</string>
+    <string name="btn_open_login">Open Login</string>
+    <string name="btn_close">Close</string>
+    
+    <!-- Service / Notifications -->
+    <string name="notif_channel_name">Discord RPC Service Channel</string>
+    <string name="notif_title_active">Presence Active</string>
+    <string name="notif_desc_background">%s is running in background</string>
+    <string name="msg_service_started">RPC Service Started</string>
+    <string name="msg_service_killed">Service killed unexpectedly! Attempting restart...</string>
+</resources>
